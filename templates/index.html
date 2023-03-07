@@ -1,0 +1,85 @@
+ <html>
+    <head>
+        <title style="font-weight:bold">login</title>
+        <style>
+            table.t{font-family:verdana;color: black;}
+            input[type='text']{
+                background-color: rgb(177, 203, 243);
+            }
+            </style>
+       {% load static %}<link   rel="shortcut icon" href="{%static "mail/media/gmail.ico"%}">
+
+	</head>
+    <body style="
+                background-color: rgb(177, 203, 243) ">
+    <form method="post" action="logincheck">
+        {% csrf_token %}
+   <table class="t" width="100%">
+    	<tr>
+    		<td width="15%" style=" background-color: rgb(177,203,243)"></td>
+    		<td  width="70%">
+    			<table bgcolor="white" border="1" cellpadding="2" cellspacing="2" align="center" width=100% >
+		            <tr height="35px" >
+		                <td colspan="2" width="100%" valign="bottom">
+                                           <div style="border:2px solid #ee0823;">
+                                               </div>
+
+		                   </td>
+		            </tr>
+		           <tr height="550px" align="center">
+
+		                <td valign="middle" width="30%" align="center">
+
+          <p>{% load static %} <img src="{%static "mail/media/gmail.png"%}" width="80" height="45" align="middle">
+           </p>
+
+              <span style="font-size: 12px; font-weight: bold; color: #555555"><b>Gmail</b></span>
+         <table align="center">
+				<tr><td><tr>
+    <td>
+
+            Username:</td>
+    <td><input type="text" name="txtUsername" size="20"></td></tr>
+                                </td></tr>
+				<tr><td><tr>
+    <td>
+
+            Password:</td><td><input type="password" name="Password" size="20">
+        </td>
+</tr>
+</td></tr>
+				<tr><td ><tr>
+    <td colspan="2"><div align="center">
+            <input  type="submit" value="Login" align="center">
+        <div>&nbsp;</div>
+        <div></div>
+
+</div><div ><a  href="newuser">New User</a>
+             <td style="text-align: right;" ><br><br><a  href="#">Forget password</a></td></td></div></td>
+
+
+</tr>
+</td></tr>
+				</table>
+         </td>
+
+
+		            </tr>
+		            <tr height="35px">
+		                <td valign="top" colspan="2" width="100%">
+                         <div style="border:2px solid #ff001b;">
+                                               </div>
+		                </td>
+		            </tr>
+		        </table>
+    		</td>
+    		<td width="15%" style="  background-color: rgb(177, 203, 243)"></td>
+    	</tr>
+    </table>
+</form>
+    </body>
+</html>
+
+
+
+
