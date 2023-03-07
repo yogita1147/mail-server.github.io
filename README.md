@@ -4,3 +4,5 @@
 ![Screenshot (41)](https://user-images.githubusercontent.com/54342492/223474013-e13fb343-631c-4af3-ae2e-df3b2f46d44c.png)
 ![Screenshot (44)](https://user-images.githubusercontent.com/54342492/223474137-1629bfa1-5730-4277-9ea5-cd0f3a3b9049.png)
 
+MAIL SERVER SYSTEM---
+TECHNOLOGIES USED-HTML,CSS,DJANGO,MYSQL SERVER..
